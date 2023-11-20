@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+
+    <link rel="stylesheet" href="css/registracija.css">
+    <link rel="stylesheet" href="css/indeks.css">
+
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+    
+    <header>
+            
+        <a href="index.html" class="logo">HorizonFly</a>
+
+        <ul class="navlist">
+            <li><a href="topponude.html">Letovi</a></li>
+            <li><a href="#">Naša priča</a></li>
+            <li><a href="pitanja.html">Pomoć/kontakt</a></li>
+            <li><a href="#">Piloti</a></li>
+            <li><a href="registracija.html">Registracija</a></li>
+        </ul>
+    
+        <div class="bx bx-menu" id="menu-icon" ></div>
+
+       
+    </header>
+
+    <section class="glavni">
+
+        <form  class="forma" > 
+            <div class="forma_za_registraciju">
+
+                    <h1>Registrujte se</h1> 
+                    <br> 
+
+                    <label for="ime">Ime: </label>
+                    <br>
+
+                    <input type="text" id ="ime" class="textbox" placeholder="Unesite ime">
+                    <br><br>
+
+                    <!-- PREZIME -->
+                    <label for="prezime">Prezime: </label>
+                    <br>
+                    <input type="text" class="textbox"  id ="prezime" placeholder="Unesite prezime">
+                    <br><br>
+
+                    <!-- POL -->
+                    <label for="pol">Pol: </label>
+                    <br>
+                    <input  name="muski"type="radio" name="pol" id="m">
+                    <label for="m">Muški</label>
+                    <input type="radio" name="pol" id="z">
+                    <label for="z">Ženski</label>
+                    <br><br>
+
+                    <!-- MEJL I SIFRA -->
+                    <label for="email">E-mail adresa: </label>
+                    <br>
+                    <input type="email" id="email" class="textbox">
+                    <br> <br>
+                    <label for="sifra">Šifra: </label>
+                    <br>
+                    <input type="password" id="sifra" class="textbox"> 
+                    <br><br>
+                    <div class="delovi_forme_potvrda">
+                        <label for="potvrda_sifre">Potvrdite šifru: </label>
+                        <br>
+                        <input type="password"  id="potvrda_sifre" class="textbox">
+                    </div>
+                    <br> 
+                    <div>
+                        <label  class="uslovi_koriscenja">Pročitao/la sam uslove korišćenja i slažem se sa njima</label>
+                        <input type="checkbox"  required>
+                    </div>
+                    <br>
+
+                    <div class="dugmad">
+                        <button class="dugmad_za_slanje" type="submit">Kreiraj nalog</button>
+                        <br>
+                        <button class="dugmad_za_reset" type="reset">Obriši sve podatke</button>
+                    </div>
+            </div>
+        </form> 
+    </section>
+   
+
+    <script src="js/registracija.js"></script>
+    
+</body>
+
+
+</html>

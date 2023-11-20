@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacije</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/pitanja.css">
+
+     <!-- boxicons -->
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+     <!-- FONTOVI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+    
+    <header>
+            
+        <a href="index.html" class="logo">HorizonFly</a>
+
+        <ul class="navlist">
+            <li><a href="topponude.html">Letovi</a></li>
+            <li><a href="#">Naša priča</a></li>
+            <li><a href="#">Pomoć/kontakt</a></li>
+            <li><a href="#">Piloti</a></li>
+            <li><a href="registracija.html">Registracija</a></li>
+        </ul>
+    
+        <div class="bx bx-menu" id="menu-icon" ></div>
+
+       
+    </header>
+    
+      <div class="glavni">
+
+        <h1 class="prviNaslov">Kako možemo da Vam pomognemo?</h1>
+
+             <div class="faq"> <!--FAQ I KONTAKT -->
+
+                <div id="faq">
+                    <h2 class="naslovPitanja">Najčešća pitanja</h2>
+
+                    <ul class="ul">
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako da rezervišem let na vašem sajtu?</p>
+                            <p class="odgovor">Rezervisanje leta je jednostavno! Posetite našu početnu stranicu, unesite grad polaska i destinaciju, odaberite datume putovanja, a zatim pratite korake na ekranu kako biste završili rezervaciju.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kakva je politika prtljaga?</p>
+                            <p class="odgovor">Svaki putnik ima određenu dozvolu za besplatni prtljag koja zavisi od klase leta. Detaljne informacije o politici prtljaga možete pronaći na našoj stranici "Prtljag" ili tokom procesa online rezervacije.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Da li nudite usluge obroka tokom leta?</p>
+                            <p class="odgovor">Da, nudimo raznovrsne obroke tokom leta, a vrsta obroka zavisi od dužine i klase leta. Informacije o dostupnim obrocima možete pronaći tokom procesa rezervacije ili na stranici "Usluge tokom leta".</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako da proverim status mog leta?</p>
+                            <p class="odgovor">Status leta možete proveriti na našem sajtu u odeljku "Provera letova". Unesite broj leta i datum putovanja kako biste dobili najnovije informacije o rasporedu.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Koje su opcije za online check-in?</p>
+                            <p class="odgovor">Online check-in je dostupan 24 sata pre planiranog vremena leta. Posetite našu stranicu za online check-in, unesite potrebne informacije i odaberite sedište pre nego što stignete na aerodrom.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako mogu da se pridružim programu lojalnosti?</p>
+                            <p class="odgovor">Pridruživanje našem programu lojalnosti je brzo i jednostavno. Posetite stranicu "Program lojalnosti" na našem sajtu i pratite uputstva za registraciju.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako mogu da promenim datum putovanja ili ime na rezervaciji?</p>
+                            <p class="odgovor"> Za izmene na rezervaciji, možete posetiti sekciju "Upravljanje rezervacijom" na našem sajtu. Tu možete promeniti datume putovanja, dodati usluge, ili izvršiti druge potrebne izmene.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje"> Da li nudite usluge za osobe sa posebnim potrebama?</p>
+                            <p class="odgovor"> Da, pružamo usluge za putnike sa posebnim potrebama. Molimo vas da nas obavestite o svojim potrebama prilikom rezervacije ili nas kontaktirate kako biste dogovorili dodatne usluge.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Koja su pravila za putovanje sa kućnim ljubimcima?</p>
+                            <p class="odgovor">Kućni ljubimci su dozvoljeni na određenim letovima. Proverite našu politiku o putovanju sa kućnim ljubimcima na stranici "Putovanje sa ljubimcima" pre nego što rezervišete svoj let.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako mogu da se informišem o promenama u rasporedu letova?</p>
+                            <p class="odgovor"> Pratite najnovije obaveštenje o rasporedu letova na našem sajtu ili se prijavite za obaveštenja putem e-pošte. Ukoliko dođe do promena, obavestićemo vas putem unapred.</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Šta da radim u slučaju gubitka prtljaga?</p>
+                            <p class="odgovor">Ako izgubite prtljag, odmah obavestite našu službu za izgubljeni prtljag. Postupak prijave gubitka prtljaga možete pronaći na našem sajtu u odeljku "Izgubljeni prtljag".</p>
+                        </li>
+                        <li class="listaPitanja">
+                            <input type="radio" name="dugmePitanje" id="dugmePitanje">
+                            <p class="pitanje">Kako mogu da rezervišem sedište sa dodatnim prostorom za noge?</p>
+                            <p class="odgovor">Da rezervišete sedište sa dodatnim prostorom za noge, odaberite tu opciju tokom procesa online rezervacije. Ove opcije su dostupne uz dodatnu naknadu.</p>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <div class="kontakt">
+                    <h2>Kontakt Informacije</h2>
+
+                    <div class="forma">
+                        <div class="podaci">
+                            <p id="brTel"><b><i>Kontakt telefon: </i></b> +381 658562123 </p>
+                            <p><b><i>Adresa: </i></b> Jurija Gagarina 12, Beograd</p>
+                            <p><b><i>E-mail: </i></b> HorizonFly@mail.com </p>
+                        </div>
+                            <p id="dodjite">Dođite do nas:</p>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14790.563682744936!2d20.398327619832955!3d44.80847384106978!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f819134df35%3A0xea33ad2b47348c55!2sAirport%20City%20Beograd%20-%20Novi%20Beograd!5e0!3m2!1ssr!2srs!4v1700332098035!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="dodatniDeo">
+                <h3 class="podpitanje1">Niste našli to što ste tražili?</h3>
+                <p class="podpitanje2">Pitajte nas i mi ćemo vam odgovoriti!</p>
+                <textarea name="pitanjeKorisnika" id="pitanjeKorisnika" cols="30" rows="10" placeholder="Unesite pitanje." ></textarea>
+                <button class="dugme">Pošalji</button>
+            </div>
+        </div>
+
+            
+      <script src="js/pitanja.js"></script>
+
+</body>
+</html>

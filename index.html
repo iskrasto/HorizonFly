@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HorizonFly</title>
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+            
+        <a href="#" class="logo">HorizonFly</a>
+
+        <ul class="navlist">
+            <li><a href="topponude.html">Letovi</a></li>
+            <li><a href="#">Naša priča</a></li>
+            <li><a href="pitanja.html">Pomoć/kontakt</a></li>
+            <li><a href="#">Piloti</a></li>
+            <li><a href="registracija.html">Registracija</a></li>
+        </ul>
+    
+        <div class="bx bx-menu" id="menu-icon" ></div>
+
+       
+    </header>
+    
+    <section class="glavni">
+        <div class="glavni-text">
+            <h1>Letimo zajedno, više od oblaka.</h1>
+            <p>HorizonFly je inovativna avio kompanija koja se ističe svojom revolucionarnom tehnologijom letenja visokih performansi. Naša posvećenost putničkom iskustvu izražava se kroz luksuzne kabine opremljene najnovijom tehnologijom i personalizovanim uslugama. Naš globalni uticaj raste zahvaljujući ekološki osvešćenim praksama koje postavljaju standarde u avio industriji.</p>
+        </div>
+        
+        <div class="glavni-filteri">
+
+            <p class="naslov">Izaberite let</p>
+
+            <form class="forma" id="forma"> 
+                <select name=" Od " id="odakle" required >
+                    <option value="" disabled selected hidden>Od</option>
+                    <option value="Beograd">Beograd, Aerodrom "Nikola Tesla"</option>
+                    <option value="Nis">Nis, Aerodrom "Konstantin Veliki"</option>
+                </select>
+                <br><br>
+                <select name=" Do " id="dokle" required>
+                    <option value="" disabled selected hidden>Do</option>
+                    <option value="Beograd">Beograd, Aerodrom "Nikola Tesla"</option>
+                    <option value="Nis">Nis, Aerodrom "Konstantin Veliki"</option>
+                </select>
+                <br><br>
+                <input type="date"  id="kalendar" >
+                <br><br>
+                <input type="text"  id="brojPutnika" placeholder="Broj putnika" >
+                <br><br>
+                <input type="text"  id="promoKod" placeholder="Promo kod">
+                <br><br>
+                <a href="#">Pretraži</a>
+                
+
+            </form> 
+        
+        </div>
+    </section>
+
+    <!-- CUSTOM JS -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
